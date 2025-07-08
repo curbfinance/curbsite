@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Wallet modal fixes */
+.wallet-adapter-dropdown {
+  @apply w-full;
+}
+
+.wallet-adapter-button {
+  @apply !bg-purple-600 hover:!bg-purple-700 !rounded-lg;
+}
+
+/* Meme font faces */
+@font-face {
+  font-family: 'Memefont';
+  src: url('/fonts/ComicNeue-Bold.ttf');
+}
+
+body {
+  font-family: 'Memefont', sans-serif;
+}
