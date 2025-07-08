@@ -1,0 +1,17 @@
+curb-finance/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── logo.png (your logo)
+├── src/
+│   ├── components/
+│   │   ├── Burn.jsx
+│   │   ├── Header.jsx
+│   │   ├── Liquidity.jsx
+│   │   └── Stats.jsx
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── constants.js
+├── package.json
+└── tailwind.config.js
